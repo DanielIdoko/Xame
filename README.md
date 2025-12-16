@@ -1,9 +1,16 @@
-# Welcome to Zend
+# Xame App
 
-Share, save and capture those memories for the future
+I built this app for myself.
+Feel free to use as well
 
-## Get started
+## To get started
+Make sure you have the following installed on your PC:
 
+- nodejs (latest version)
+- expo (latest version)
+- typescript (latest version)
+
+Next: 
 1. Install dependencies
 
    ```bash
