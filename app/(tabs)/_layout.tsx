@@ -44,8 +44,11 @@ const TabLayout = () => {
           borderTopWidth: 1,
           borderTopColor: "#f2f2f2",
           height: 75,
+          width: '95%',
           position: "absolute",
-          bottom: '20',x
+          bottom: 20,
+          left: 10,
+          borderRadius: 40,
           flexDirection: "row",
           alignItems: "center",
           backgroundColor: "#ffffff",
@@ -56,6 +59,7 @@ const TabLayout = () => {
         name="home"
         options={{
           title: "Home",
+          headerShown: false,
           tabBarIcon: ({ focused }) => (
             <TabBarIcon
               title="Home"
